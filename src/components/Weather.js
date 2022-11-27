@@ -24,7 +24,7 @@ const getWeatherInfo= async () =>{
 };
 useEffect(()=>{
 getWeatherInfo();
-},[]);
+},[getWeatherInfo]);
   return (
     <>
     <div className="wrap">
